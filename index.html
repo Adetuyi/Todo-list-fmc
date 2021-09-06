@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Todo app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 25px;
+        color: #fff;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="container">
+      <div class="todo">
+        <div class="head">
+          <h2>Todo</h2>
+        </div>
+        <div class="message"></div>
+        <div class="new-todo dark trans">
+          <div class="radio submit"></div>
+          <input
+            type="text"
+            name="create-todo"
+            id="create-todo"
+            placeholder="Create a new todo..."
+          />
+        </div>
+        <div class="lol">
+          <div class="todo-area dark trans"></div>
+          <div class="bottom dark trans">
+            <span><span class="task-left"></span> items left</span>
+            <div class="btns m-hidden">
+              <span class="all focus">All</span>
+              <span class="active">Active</span>
+              <span class="complete">Completed</span>
+            </div>
+            <span class="clear-tasks">Clear Completed</span>
+          </div>
+        </div>
+
+        <div class="mobile dark trans">
+          <div class="btns">
+            <span class="all focus">All</span>
+            <span class="active">Active</span>
+            <span class="complete">Completed</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="reorder">Drag and drop to reorder list</div> -->
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Adetuyi">Adetuyi Oluwaseyi Tolulope</a>.
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
